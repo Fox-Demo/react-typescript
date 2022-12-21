@@ -1,0 +1,22 @@
+.navbar{
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--clr-primary-10);
+}
+
+.navbar__header{
+  height: 8vh;
+  width: 100vw;
+  background-color: #fff;
+
+  padding: 0rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  box-shadow: var(--dark-shadow);
+}
+
+.navbar__header--section{
+    
+}

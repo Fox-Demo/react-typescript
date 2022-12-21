@@ -1,0 +1,136 @@
+.grocery{
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  background-color: var(--clr-primary-10);
+  padding-top: 8rem;
+
+  letter-spacing: 2px;
+}
+
+.grocery__main{
+  margin: 0 auto;
+  padding: 2rem;
+  width: 35rem;
+  background-color: #fff;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+}
+
+.grocery__header--title{
+  font-weight: 700;
+  font-size: 1.75rem;
+  color: var(--clr-primary-1);
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+
+
+.grocery__form {
+  display: flex;
+}
+
+.grocery__form--input{
+  padding: .25rem .25rem .25rem 1rem;
+  font-size: 1rem;
+  border-color: transparent;
+  border-top-left-radius: var(--radius);
+  border-bottom-left-radius: var(--radius);
+  background-color: var(--clr-grey-10);
+  flex: 1;
+}
+.grocery__form--submit {
+  border-top-right-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  border-color: transparent;
+  letter-spacing: 2px;
+  padding: .25rem .5rem;
+  font-size: .85rem;
+  background-color: var(--clr-primary-8);
+  cursor: pointer;
+}
+
+.grocery__form--submit:hover{
+  background-color: var(--clr-primary-5);
+  color: white;
+  transition: var(--transition);
+}
+
+.grocery__list{
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .75rem;
+  margin: 2rem 0;
+}
+
+.grocery__btn--clear{
+  text-align: center;
+  cursor: pointer;
+  font-size: .85rem;
+  color: #e66b6b;
+}
+
+.grocery__btn--clear:hover{
+  filter: brightness(70%);
+  transition: var(--transition);
+}
+
+/* ITEM */
+
+.grocery__item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: .25rem 1rem;
+}
+
+.grocery__item:hover{
+  border-radius: var(--radius);
+  background-color: var(--clr-grey-10);
+  transition: var(--transition);
+}
+
+.item__btn-container{
+  display: flex;
+  gap: .5rem;
+}
+
+.item__btn--edit{
+  cursor: pointer;
+}
+
+.item__btn--edit:hover{
+  filter: brightness(50%);
+  transition: var(--transition);
+}
+
+.item__btn--delete{
+  cursor: pointer;
+}
+
+.item__btn--delete:hover{
+  filter: brightness(50%);
+  transition: var(--transition);
+}
+
+/* MODAL */
+
+.grocery__modal{
+  margin-bottom: 1rem;
+  border-radius: var(--radius);
+}
+
+.green{
+  background-color: aquamarine;
+}
+
+.red{  
+  background-color:#e66b6b ;
+}
+
+.grocery__modal--text{
+  text-align: center;
+}
+
