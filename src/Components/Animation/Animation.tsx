@@ -12,7 +12,6 @@ const Animation = (props: Props) => {
         <button id="submit-btn">
           <span id='btn-text'>submit</span>
           <span id="btn-symbol">X</span>
-
         </button>
       </main>
     </div>
