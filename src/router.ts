@@ -26,6 +26,6 @@ export const projectsRouters: router[] = [
   },
   {
     path: "/animation",
-    title: "Animation",
+    title: "Animations",
   },
 ];
